@@ -1,0 +1,40 @@
+// Part 1 
+
+Http means Hyper text transfer protocol, and is used to dictate how clients send or recieve data from a server.
+
+url stands from uniform resource locators. They are used as addresses to specific internet resources.
+
+DNS means domain name system. It is a system that takes readable URLs and converts them into IP addresses.
+
+A query string allows you to pass keys and values as pairs into the url.always after the path.
+
+Get recieves data from a server (ex google)
+& POST which sends data to a server. (ex publish on youtube,social media)
+
+A HTTP request is a request from a client to a server that uses the hyper text transfer protocol.
+
+A HTTP response is a response from a server using the the hyper text transfer. 
+
+The HTTP header gives additional information about the server the client is reaching.
+Examples: Request URL: http://google.com/, Request Method: GET , Status Code: 200.
+
+First the url is turned into an IP address using DNS.
+The browser makes a request to that IP address as a whole(includes headers)
+The browser sends the response which is usually HTML.
+It then makes a DOM from the resources in the response.
+The browser makes separate HTTP request to the resources and receives response from a server for each.
+
+// Part 2
+
+ curl https://icanhazdadjoke.com/search?term=pirate
+What does a pirate pay for his corn? A buccaneer!
+Why couldn't the kid see the pirate movie? Because it was rated arrr!
+What did the pirate say on his 80th birthday? Aye Matey!
+Why are pirates called pirates? Because they arrr!
+Why do pirates not know the alphabet? They always get stuck at "C
+
+dig icanhazdadjoke.com +short
+icanhazdadjoke.com.     0       IN      A       172.67.198.173
+python3 -m http.server
+
+
